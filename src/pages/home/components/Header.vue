@@ -1,5 +1,5 @@
  <template>
-    <div class='header'> 
+    <div class='header'>
         <div class="header-left">
             <div class='iconfont back-icon'>&#xe603;</div>
         </div>
@@ -24,31 +24,31 @@ export default {
     @import '~styles/varibles.styl'
     .header
         display :flex
-        height :.86rem
+        height :0.86rem
         background : $bgColor
         color :white
         .header-left
-            width :.64rem
+            width :0.64rem
             float :left
             .back-icon
-                padding-top:.24rem
+                padding-top:0.24rem
                 text-align :center
-                font-size:.4rem
+                font-size:0.4rem
         .header-input
             flex :1
-            height :.64rem
-            line-height:.64rem
-            margin-left:.2rem 
-            margin-top:.12rem
-            padding-left:.2rem
+            height :0.64rem
+            line-height:0.64rem
+            margin-left:0.2rem
+            margin-top:0.12rem
+            padding-left:0.2rem
             background:white
-            border-radius:.1rem
+            border-radius:0.1rem
             color:#ccc
         .header-right
             width :1.24rem
             float :right
             text-align :center
-            padding-top:.24rem
+            padding-top:0.24rem
             .arrow-icon
-                font-size :.15rem   
+                font-size :0.15rem
 </style>
